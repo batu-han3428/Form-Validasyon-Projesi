@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pt-3 pb-3" style=" box-shadow: 12px 15px 5px #888888; border:1px solid #b9b9b9;">
+                <div>
+                    <h3>Kullanıcı Oluştur</h3>
+                </div>
+                <form id="form" onsubmit="event.preventDefault()" novalidate>
+                    <div class="form-floating mb-3">
+                        <input type="email" autocomplete="off" class="form-control" id="floatingEmail" placeholder="name@example.com">
+                        <label for="floatingEmail">Email address</label>
+                        <div></div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingPhone" placeholder="53451214">
+                        <label for="floatingPhone">Phone</label>
+                        <div></div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingUsername" placeholder="name@example.com">
+                        <label for="floatingUsername">User name</label>
+                        <div></div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                        <div></div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingRe-Password" placeholder="Password">
+                        <label for="floatingRe-Password">Re-Password</label>
+                        <div></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
